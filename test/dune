@@ -1,0 +1,5 @@
+(library
+ (name baby_org_test)
+ (libraries core_kernel baby_org)
+ (inline_tests)
+ (preprocess (pps ppx_jane)))
