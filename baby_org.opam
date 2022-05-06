@@ -14,7 +14,7 @@ dev-repo: "https://github.com/iradicek/baby-org"
 depends: [
   "ocaml"
   "ocamlfind"
-  "core_kernel"
+  "core"
   "dune" {>= "3.0"}
 ]
 build: [

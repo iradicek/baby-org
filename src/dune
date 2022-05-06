@@ -1,5 +1,5 @@
 (library
  (name baby_org)
  ; (public_name baby_org)
- (libraries core_kernel)
+ (libraries core)
  (preprocess (pps ppx_jane)))

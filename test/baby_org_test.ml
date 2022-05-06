@@ -1,4 +1,4 @@
-open Core_kernel
+open Core
 
 let%expect_test "hello_world" =
   printf "%s" (Baby_org.hello "world");
