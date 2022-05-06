@@ -1,0 +1,18 @@
+opam-version: "2.0"
+name: "baby_org"
+version: "0.1.0"
+synopsis: "Baby implementation of .org reader."
+description: """
+TODO
+"""
+maintainer: "Ivan R <ivan@radicek.com>"
+authors: "Ivan R <ivan@radicek.com>"
+license: "GPL-3.0"
+homepage: "https://github.com/iradicek/baby-org"
+bug-reports: "https://github.com/iradicek/baby-org/issues"
+dev-repo: "https://github.com/iradicek/baby-org"
+depends: [ "ocaml" "ocamlfind" ]
+build: [
+  [make]
+]
+install: [make "install"]
